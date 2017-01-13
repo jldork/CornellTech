@@ -1,0 +1,14 @@
+.header img {
+    width: 100%;
+}
+
+.header h1 {
+    float: right;
+    position: absolute;
+    top: 200px;
+    left: 35%;
+    color: white;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 72px;
+    text-shadow: 1px 1px #888;
+}

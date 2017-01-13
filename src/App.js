@@ -1,18 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Headshot from './Headshot.png';
+
+import Header from './header/header';
+import About from './about/about';
+import Timeline from './timeline/timeline';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+        <Header />
+        <div className="container">
+          <img alt="James Leung" src={Headshot} className="portrait" />
+          <About />
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Timeline />
+        <footer>
+          <a href="https://www.linkedin.com/in/leungjames" title="LinkedIn" className="linkedin" />
+          <a href="https://twitter.com/jldork" title="Twitter" className="twitter"/> 
+          <a href="https://github.com/jldork" title="Github" className="github"/> 
+        </footer>
       </div>
     );
   }
