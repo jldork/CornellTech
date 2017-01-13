@@ -3,7 +3,8 @@ import './about.css';
 
 class About extends Component {
     render() {
-        const INTRO = "Hello! My name is James and I build data tools and products at Capital One.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.";
+        const INTRO = "I build resilient data-centric web applications and API's at Capital One. I first started writing code around three years ago, when I first heard about machine learning. As soon as I got home from work, I watched Coursera videos and went through Data Science tutorials. Coding transitioned from side-hobby to work when I was able to reduce a 3 week process into a single day using Python. At that point, I realized that learning to code empowers you to bring any idea into reality. Since then, I have been working to share that same empowerment with others. Please click the timeline below to follow my journey";
+
         return (
             <div className="about-me">
                 <h2>About Me</h2>
