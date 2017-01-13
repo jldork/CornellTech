@@ -7,7 +7,6 @@ class Header extends Component {
         return (
             <div className="header">
                 <img alt="Owls" src={Owls} className="owls" />
-                <h1>James Leung</h1>
             </div>
         )
     }

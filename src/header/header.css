@@ -1,14 +1,14 @@
+.header {
+    background-color: #333;
+}
 .header img {
     width: 100%;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* msie */
 }
 
-.header h1 {
-    float: right;
-    position: absolute;
-    top: 200px;
-    left: 35%;
-    color: white;
-    font-family: "Julius Sans One", sans-serif;
-    font-size: 72px;
-    text-shadow: 1px 1px #888;
+div.text-wrapper {
+    float: left;
+    position: relative;
+    left: 50%;
 }
