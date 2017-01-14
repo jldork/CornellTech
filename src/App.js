@@ -12,6 +12,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <About />
+        <div className="line" />
         <Timeline />
         <div className="footer">
           <span>Come Find Me: </span>

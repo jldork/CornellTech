@@ -1,16 +1,21 @@
 .App {
   display: flex;
   flex-direction:column;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  background-color: #fff;
+  align-items: center;
+}
+
+.line {
+  border: solid 1px rgba(0,0,0,0.1);
+  width: 50%;
 }
 
 .portrait {
   height: 340px;
   -webkit-box-shadow: 0 0 10px #666;
   box-shadow: 0 0 10px #666;
-}
-
-iframe {
-  border: none;
 }
 
 .footer {
