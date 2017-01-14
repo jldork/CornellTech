@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import './header.css';
-import Owls from './owls.png'
+import Owls from './owls.jpg'
 
 class Header extends Component {
     render() {
         return (
-            <div className="header">
-                <img alt="Owls" src={Owls} className="owls" />
-            </div>
+            <img alt="Owls" src={Owls} className="header" />
         )
     }
 };
