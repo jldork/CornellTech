@@ -14,6 +14,10 @@ class App extends Component {
         <About />
         <div className="line" />
         <Timeline />
+        <div className="line" />
+        <div className="Plot">
+          <p>PLACEHOLDER STUFF</p>
+        </div>
         <div className="footer">
           <span>Come Find Me: </span>
           <ul className="social">
