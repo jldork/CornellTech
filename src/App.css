@@ -1,9 +1,6 @@
 .App {
   display: flex;
   flex-direction:column;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: lighter;
-  background-color: #fff;
   align-items: center;
 }
 
