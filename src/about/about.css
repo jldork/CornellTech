@@ -4,12 +4,25 @@
   justify-content: center;
   align-items: center;
   padding: 80px 0;
-  background-color:#fff ;
+  background-image: url('./owls.png');
+  background-size: 100% auto;
+  min-height: 800px;
 }
 
 .about-me {
   width: 40%;
-  border: #555 2px;
   padding: 20px;
   margin-left: 50px;
+}
+
+.about-me h2 {
+  background-color: rgba(17,138,178, 0.5);
+  width: 150px;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+p {
+  color: white;
 }

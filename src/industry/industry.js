@@ -22,7 +22,7 @@ export default class Industry extends React.Component {
                 <HorizontalGridLines />
                 <LineSeries
                     data={data} />
-                <XAxis title="Year" tickFormat={(d,i)=>{return d}}/>
+                <XAxis title="Year" tickFormat={(d,i)=>{return d}} />
                 <YAxis title="% of S&P500 Market Value"/>
             </XYPlot>
         );
