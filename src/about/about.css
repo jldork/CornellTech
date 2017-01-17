@@ -1,26 +1,27 @@
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 80px 0;
-  background-image: url('./owls.png');
-  background-size: 100% auto;
+  padding: 40px 0;
+  background-color: #222;
   min-height: 800px;
 }
 
-.about-me {
-  width: 40%;
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+div.about-me {
   padding: 20px;
-  margin-left: 50px;
+  margin: 0 50px;
 }
 
 .about-me h2 {
   background-color: rgba(17,138,178, 0.5);
-  width: 150px;
   color: #fff;
-  padding: 5px;
-  text-align: center;
+  padding: 10px;
+  font-family: 'Pacifico', cursive;
 }
 
 p {

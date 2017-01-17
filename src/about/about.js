@@ -9,13 +9,29 @@ class About extends Component {
         const WHAT = "I currently build data-centric applications and API's for Capital One, but I am self-taught and began to learn only a few years ago. See my journey below: "
         return (
             <div className="container">
-                <div className="about-me">
-                    <h2>About Me</h2>
-                    <p>{ME + WHY + WHAT}</p>
+                <div className="col">
+                    <div className="about-me">
+                        <h2>Perpetual Student</h2>
+                        <p>{ME + WHY + WHAT}</p>
+                    </div>
+                    <div className="about-me">
+                        <h2>About Me</h2>
+                        <p>{ME + WHY + WHAT}</p>
+                    </div>
                 </div>
-                <div className="about-me">
-                    <h2>About Me</h2>
-                    <p>{ME + WHY + WHAT}</p>
+                <div className="col">
+                    <div className="about-me">
+                        <h2>Perpetual Student</h2>
+                        <p>{ME + WHY + WHAT}</p>
+                    </div>
+                    <div className="about-me">
+                        <h2>Perpetual Teacher</h2>
+                        <p>{ME + WHY + WHAT}</p>
+                    </div>
+                    <div className="about-me">
+                        <h2>Perpetual Maker</h2>
+                        <p>{ME + WHY + WHAT}</p>
+                    </div>
                 </div>
             </div>
         )

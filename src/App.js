@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { StickyContainer } from 'react-sticky';
 import Header from './header/header';
 import About from './about/about';
 import Timeline from './timeline/timeline';
