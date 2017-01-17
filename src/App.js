@@ -5,6 +5,7 @@ import { SocialIcon } from 'react-social-icons';
 import Header from './header/header';
 import About from './about/about';
 import Timeline from './timeline/timeline';
+import Industry from './industry/industry';
 
 class App extends Component {
   render() {
@@ -15,8 +16,8 @@ class App extends Component {
         <div className="line" />
         <Timeline />
         <div className="line" />
-        <div className="Plot">
-          <p>PLACEHOLDER STUFF</p>
+        <div className="industry">
+          <Industry />
         </div>
         <div className="footer">
           <span>Come Find Me: </span>
