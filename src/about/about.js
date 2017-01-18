@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './about.css';
-import Headshot from './Headshot.png';
+import Headshot from './Headshot.jpg';
 import TypeWriter from 'react-typewriter';
 
 class About extends Component {
@@ -13,10 +13,10 @@ class About extends Component {
         return (
             <div className="container">
                 <div className="col headshot">
-                    <h2 className="title-msg">Hello World!</h2>
+                    <h2 className="title-msg">James Leung</h2>
                     <img id="headshot" src={Headshot} role="presentation" />
                     
-                    <TypeWriter typing={typing_state} minDelay={300}>
+                    <TypeWriter typing={typing_state}>
                         <p>I solve problems with code, data, and empathy</p>
                     </TypeWriter>
                 </div>
