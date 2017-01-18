@@ -45,3 +45,9 @@ div.text {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
+
+.plot p {
+    color: #222;
+    font-family: sans-serif;
+    font-style: italics;    
+}
