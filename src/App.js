@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './header/header';
 import About from './about/about';
-import Timeline from './timeline/timeline';
-import Industry from './industry/industry';
+import Cornell from './cornell/cornell';
 
 class App extends Component {
   render() {
@@ -11,12 +10,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <About />
-        <div className="line" />
-        <Timeline />
-        <div className="line" />
-        <div className="industry">
-          <Industry />
-        </div>
+        <Cornell />
       </div>
     );
   }

@@ -3,7 +3,6 @@
   flex-direction: row;
   padding: 40px 0;
   background-color: #222;
-  min-height: 800px;
 }
 
 .col {
@@ -46,13 +45,20 @@ div.about-me {
 }
 
 .about-me h2 {
-  /*background-color: rgba(17,138,178, 1);*/
   text-shadow: 1px 1px 5px #118AB2;
   color: #FFF8F0;
   padding: 15px 0;
   font-family: 'Pacifico', cursive;
 }
 
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-weight: bolder;
+}
+
 p {
   color: #FFF8F0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
 }
