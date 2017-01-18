@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import { StickyContainer } from 'react-sticky';
 import Header from './header/header';
 import About from './about/about';
 import Timeline from './timeline/timeline';
 import Industry from './industry/industry';
-import Footer from './footer/footer';
 
 class App extends Component {
   render() {
@@ -19,7 +17,6 @@ class App extends Component {
         <div className="industry">
           <Industry />
         </div>
-        <Footer />
       </div>
     );
   }
