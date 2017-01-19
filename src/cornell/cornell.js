@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { Bar } from 'react-chartjs-2';
 import './cornell.css';
 
+import data_digital_reality from '../text/the_digital_reality.txt';
+const the_digital_reality = atob(data_digital_reality.split(',')[1])
+
+
 export default class Cornell extends Component {
     render() {
         const intangible_data = [17, 32, 68, 80, 87]
@@ -58,7 +62,7 @@ export default class Cornell extends Component {
                 <div className="text">
                     <div className="wrapper">
                         <h2>The Digital Reality</h2>
-                        <p>According to the school’s mission, the education is focused on “blending technical depth, business knowhow, design skills”, and most importantly a “builder” mindset. To show they’re serious about this builder mindset, a quick look at their courses reveals a product studio, and startup studio.Cornell Tech is a one of a kind experience due to its immersive curriculum and builder philosophy. It is a perfect jump-start into the NYC tech and startup scene with connections to Gotham Ventures and Google.</p>
+                        <p>{the_digital_reality}</p>
                     </div>
                     <div className="wrapper">
                         <h2>Why Cornell Tech?</h2>
