@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
+import TypeWriter from 'react-typewriter';
+
+// Assets
 import './about.css';
 import Headshot from './Headshot.jpg';
-import TypeWriter from 'react-typewriter';
+// Text
+import data_student from '../text/perpetual_student.txt';
+import data_teacher from '../text/perpetual_teacher.txt';
+import data_maker from '../text/perpetual_maker.txt';
+
+const perpetual_student = atob(data_student.split(',')[1])
+const perpetual_teacher = atob(data_teacher.split(',')[1])
+const perpetual_maker = atob(data_maker.split(',')[1])
 
 class About extends Component {
     render() {
-        const ME = "I believe strongly in the Open Data movement, Maker culture, and Agile philosophy. I care not just about bringing new technology to life, but also the impact it has on our culture. "
-        const WHY = "Cornell Tech is a school whose philosophy resonates with me: everyone is a maker. This goes hand in hand with my passion to increase code literacy. "
-        const WHAT = "I currently build data-centric applications and API's for Capital One, but I am self-taught and began to learn only a few years ago. "
-
         let typing_state = 1
         return (
             <div className="container">
@@ -23,15 +29,15 @@ class About extends Component {
                 <div className="col">
                     <div className="about-me">
                         <h2>Perpetual Student</h2>
-                        <p>{ME + WHY + WHAT}</p>
+                        <p>{perpetual_student}</p>
                     </div>
                     <div className="about-me">
                         <h2>Perpetual Teacher</h2>
-                        <p>{ME + WHY + WHAT}</p>
+                        <p>{perpetual_teacher}</p>
                     </div>
                     <div className="about-me">
                         <h2>Perpetual Maker</h2>
-                        <p>{ME + WHY + WHAT}</p>
+                        <p>{perpetual_maker}</p>
                     </div>
                 </div>
             </div>
