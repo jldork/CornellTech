@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import { Bar } from 'react-chartjs-2';
 import './cornell.css';
 
+// Text files
 import data_digital_reality from '../text/the_digital_reality.txt';
+import data_cornell_tech from '../text/why_cornell_tech.txt';
 const the_digital_reality = atob(data_digital_reality.split(',')[1])
+const why_cornell_tech = atob(data_cornell_tech.split(',')[1])
 
 
 export default class Cornell extends Component {
@@ -32,14 +35,19 @@ export default class Cornell extends Component {
                     stacked: true,
                     ticks: {
                         beginAtZero: true
+                    },
+                    scaleLabel: {
+                        display: true,
+                        labelString: '% of S&P500 Market Value'
                     }
                 }],
                 xAxes: [{
                     barPercentage: .8,
                     categoryPercentage: .5,
                     stacked: true,
-                    ticks: {
-                        beginAtZero: true
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Year'
                     }
                 }]
             },
@@ -66,7 +74,7 @@ export default class Cornell extends Component {
                     </div>
                     <div className="wrapper">
                         <h2>Why Cornell Tech?</h2>
-                        <p>According to the school’s mission, the education is focused on “blending technical depth, business knowhow, design skills”, and most importantly a “builder” mindset. To show they’re serious about this builder mindset, a quick look at their courses reveals a product studio, and startup studio.Cornell Tech is a one of a kind experience due to its immersive curriculum and builder philosophy. It is a perfect jump-start into the NYC tech and startup scene with connections to Gotham Ventures and Google.</p>
+                        <p>{why_cornell_tech}</p>
                     </div>
                 </div>
                 <div className="plot">
