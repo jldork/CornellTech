@@ -1,7 +1,7 @@
 .cornell {
     display: flex;
     flex-direction: row;
-    padding: 50px 60px;
+    padding: 150px 60px;
     align-items: flex-start;
     justify-content: space-around;
 }
@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-right: 80px;
 }
 
@@ -33,10 +33,6 @@
 div.text {
     width: 50%;
     margin-right: 100px;
-}
-
-.plot {
-    margin-bottom: 50px;
 }
 
 .plot h3 {
