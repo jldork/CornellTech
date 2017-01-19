@@ -15,7 +15,7 @@
 
 .title-msg{
   font-size: 72px;
-  font-family: 'Pacifico', sans-serif;
+  font-family: 'Pacifico', cursive;
   color: #118AB2;
   text-shadow: 1px 1px 1px #fff;
 }
@@ -29,7 +29,7 @@ div.headshot {
 .headshot p {
   color: white;
   font-size: 24px;
-  font-family: 'Pacifico', sans-serif;
+  font-family: 'Pacifico', cursive;
 }
 
 #headshot {
@@ -57,7 +57,7 @@ h2 {
 
 p {
   color: #FFF8F0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: sans-serif;
   font-weight: lighter;
   font-size: 12px;
 }

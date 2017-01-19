@@ -11,12 +11,12 @@ export default class Cornell extends Component {
                 {
                     data: intangible_data,
                     label: "Intangible Assets",
-                    backgroundColor: "rgba(17,138,178,0.5)"
+                    backgroundColor: "rgba(229,16,34,0.5)"
                 },
                 {
                     data: intangible_data.map((pct) => { return 100 - pct }),
                     label: "Tangible Assets",
-                    backgroundColor: "rgba(17,138,178,0.1)"
+                    backgroundColor: "rgba(229,16,34,0.1)"
                 }
             ]
         };

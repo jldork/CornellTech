@@ -23,7 +23,7 @@ class About extends Component {
                     <img id="headshot" src={Headshot} role="presentation" />
                     
                     <TypeWriter typing={typing_state}>
-                        <p>I solve problems with code, data, and <span style={{color:"#6fd1f1"}}>empathy</span></p>
+                        <p>I solve problems with code, data, and <span style={{color:"#F45B69"}}>empathy</span></p>
                     </TypeWriter>
                 </div>
                 <div className="col">
