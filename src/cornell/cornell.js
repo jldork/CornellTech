@@ -73,7 +73,7 @@ export default class Cornell extends Component {
                         <p>{the_digital_reality}</p>
                     </div>
                     <div className="wrapper">
-                        <h2>Why Cornell Tech?</h2>
+                        <h2>Why Cornell Tech</h2>
                         <p>{why_cornell_tech}</p>
                     </div>
                 </div>
